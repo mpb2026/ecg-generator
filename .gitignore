@@ -1,0 +1,37 @@
+# Entorno y secretos
+.env
+.env.*.local
+*.key
+*.pem
+
+# Logs
+logs/
+*.log
+
+# Virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Dependencias y build
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
+# IDEs y OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
